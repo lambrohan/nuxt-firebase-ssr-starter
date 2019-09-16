@@ -1,12 +1,11 @@
 {
   "name": "functions",
-  "description":
-    "Nuxt-SSR-Firebase: Nuxt.js with Firebase Functions Production Setup",
+  "description": "Nuxt-SSR-Firebase: Nuxt.js with Firebase Functions Production Setup",
   "dependencies": {
-    "express": "^4.15.3",
-    "firebase-admin": "~5.13.1",
-    "firebase-functions": "^2.0.0",
-    "nuxt": "^1.0.0"
+    "express": "^4.17.1",
+    "firebase-admin": "^8.5.0",
+    "firebase-functions": "^3.2.0",
+    "nuxt": "^2.9.2"
   },
   "engines": {
     "node": "8"

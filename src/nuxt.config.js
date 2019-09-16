@@ -34,11 +34,10 @@ module.exports = {
       }
     ]
   },
-
-  // <script src="https://cdn.muicss.com/mui-0.9.35/js/mui.min.js"></script>
-  /*
-   ** Customize the progress bar color
-   */
+  modules: ["@nuxtjs/style-resources"],
+  styleResources: {
+    scss: ["assets/styles/global.scss"]
+  },
   loading: {
     color: "#3B8070"
   },
