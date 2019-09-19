@@ -12,7 +12,7 @@
     "serve": "firebase serve --only functions,hosting",
     "deploy": "firebase deploy",
     "predeploy": "yarn build",
-    "setup": "yarn install && yarn setup:client && yarn setup:server",
+    "setup": "yarn install && yarn setup:client && yarn setup:server && yarn setup:firebase",
     "setup:client": "cd \"src\" && yarn install",
     "setup:server": "cd \"prod/server\" && yarn install",
     "setup:firebase": "rename .setup-firebaserc .firebaserc",
