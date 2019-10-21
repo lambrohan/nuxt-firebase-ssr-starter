@@ -19,7 +19,7 @@
     "copyassets": "yarn copydist && yarn copystatic",
     "copydistserver":"cpx prod/server/nuxt/dist/server/* prod/client/assets",
     "copydistclient":"cpx prod/server/nuxt/dist/client/* prod/client/assets",
-    "copydist": "yarn copydistclient && yarn copydistserver",
+    "copydist": "yarn copydistclient",
     "copystatic": "cpx src/static/* prod/client",
     "clean": "rimraf prod/client/assets/*",
     "build:nuxt": "cd \"src\" && yarn build"
