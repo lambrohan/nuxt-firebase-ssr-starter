@@ -3,7 +3,7 @@
   "description": "Nuxt-SSR-Firebase: Nuxt.js with Firebase Functions Production Setup",
   "dependencies": {
     "express": "^4.17.1",
-    "firebase-admin": "^8.5.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.2.0",
     "nuxt": "^2.9.2",
     "babel-plugin-module-resolver": "^2.7.1",
